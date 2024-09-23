@@ -13,8 +13,8 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     Read yaml file and return its content as ConfigBox object
     '''
     try:
-        with open(path_to_yaml) as yaml_file:
-            content=yaml.safe_load(path_to_yaml)
+        with path_to_yaml.open() as yaml_file:
+            content=yaml.safe_load(yaml_file)
             logger.info(f"yaml file: {path_to_yaml} successfully loaded")
             return ConfigBox(content)
     except BoxValueError:
