@@ -16,5 +16,5 @@ boto3
 mypy-boto3-s3
 python-box
 ensure
-fastapi
+fastapi[standard]
 -e .
