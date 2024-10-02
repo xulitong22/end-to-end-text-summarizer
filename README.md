@@ -5,7 +5,7 @@ TextSummarizer is an text summarization tool built using Huggingface Transformer
 ## Key Folders and Files
 - src/TextSummarizer/: Contains the core components and logic for data ingestion, validation, transformation, model training, and evaluation.
 - config/: Contains the configuration files for the project.
-research/: Contains Jupyter notebooks for research and experimentation (e.g., fine-tuning models, dataset exploration).
+- research/: Contains Jupyter notebooks for research and experimentation (e.g., fine-tuning models, dataset exploration).
 - app.py and main.py: Entrypoints for running the FastAPI app and orchestrating the model pipeline.
 
 
